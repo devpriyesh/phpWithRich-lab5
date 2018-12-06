@@ -1,0 +1,7 @@
+<?php
+
+//connect to db
+$conn = new PDO('mysql:host=localhost; dbname=learn_with_rich', 'root', '');
+//$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+?>
